@@ -1,0 +1,17 @@
+{% load static %}
+<div class="col-md-6">
+  <div class="box">
+    <div class="img-box">
+      <img src=" {% static 'home/images/b1.jpg' %}" alt="" />
+      <h4 class="blog_date">
+        14 <br />
+        July
+      </h4>
+    </div>
+    <div class="detail-box">
+      <h5>{{ blog.title }}</h5>
+      <p>{{ blog.desc }}</p>
+      <a href=""> Read More </a>
+    </div>
+  </div>
+</div>

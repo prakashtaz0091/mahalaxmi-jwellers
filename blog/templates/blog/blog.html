@@ -1,0 +1,23 @@
+{% extends 'common/base.html' %} {% load static %} {% block content %}
+
+<!-- blog section -->
+
+<section class="blog_section">
+  <div class="container">
+    <div class="heading_container">
+      <h2>Latest From Blog</h2>
+    </div>
+    <div class="row">
+
+      
+      {% for blog in blogs  %}
+      {% include 'blog/blog_card.html' with blog=blog %} 
+        
+      {% endfor %}
+        
+    </div>
+  </div>
+</section>
+
+<!-- end blog section -->
+{% endblock content %}

@@ -8,6 +8,7 @@ urlpatterns = [
     path('', include('home.urls')),  #this is for the home page
     path('about/', include('about.urls')),
     path('shop/', include('shop.urls')),
+    path('blog/', include('blog.urls')),
     
     
 ] 
