@@ -17,7 +17,7 @@ Follow these steps to set up the project locally:
 
 ```
 
-git clone <repository-url>
+git clone https://github.com/prakashtaz0091/mahalaxmi-jwellers
 cd <project-directory>
 
 ```
