@@ -99,7 +99,3 @@ Log in with the superuser credentials you created earlier.
 
 - The default port for the development server is 8000. You can change this by specifying a different port when running the `runserver` command (e.g., `python manage.py runserver 8080`).
 - This project is set up for local development. For deployment, additional configuration and settings are needed.
-
-```
-
-```
