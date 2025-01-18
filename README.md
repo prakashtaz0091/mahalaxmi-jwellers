@@ -1,6 +1,4 @@
-# Django Project
-
-This is a basic Django project that demonstrates how to set up a simple web application using Django.
+# Mahalaxmi Jwellers
 
 ## Requirements
 
@@ -18,7 +16,6 @@ Follow these steps to set up the project locally:
 ```
 
 git clone https://github.com/prakashtaz0091/mahalaxmi-jwellers
-cd <project-directory>
 
 ```
 
@@ -28,6 +25,13 @@ cd <project-directory>
 
   ```
   python -m venv venv
+  ```
+
+  or in linux
+
+  ```
+  pip install virtualenv
+  virtualenv venv
   ```
 
 - Activate the virtual environment:
